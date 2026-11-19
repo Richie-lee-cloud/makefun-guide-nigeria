@@ -7,6 +7,8 @@
 > **New here? Start with my link:** [https://make.fun/r/e1cybfh9](https://make.fun/r/e1cybfh9)
 >
 > My referral code is `e1cybfh9`.
+>
+> This guide is my entry for the "Bring the humans again" bounty — $1,000 shared by the 50 best entries, ending **Saturday, November 21, 11:30 AM WAT**. 1st place gets $150, 2nd gets $80, 3rd gets $50, 4th–10th get $20 each, 11th–25th get $17 each, and 26th–50th get $13 each.
 
 This is a plain, step-by-step guide to make.fun, written for a newcomer in Nigeria — and for anyone who has never coded. You do not need to be a programmer. You need a clear idea, an AI agent that writes the code for you, and the patience to follow the rules.
 
@@ -24,7 +26,7 @@ You do not have to be a professional programmer. The agent does most of the codi
 2. **Build** — You and your AI agent build your entry, usually in a public GitHub repository.
 3. **Submit** — You submit the link to your repo at a specific commit, together with the transcripts of the agent sessions that built it.
 4. **Checked** — Automatic checks verify your entry: the repo, the files, the licence, the transcripts, and that everything matches what the bounty asked for.
-5. **Scored** — Entries are graded and ranked on a leaderboard.
+5. **Scored** — For most bounties, entries are graded and ranked on a leaderboard. For this bounty, "Bring the humans again", your score is different: it is the number of verified human signups your referral link brought during the competition. The entry with the most verified signups wins, and the 50 highest-ranked entries share the $1,000. Only real signups count — your own account, fake accounts, bots, and idle accounts that never take part do not count.
 6. **Paid** — Top entries claim their reward in USDC to their own Solana wallet.
 
 Most bounties are free to enter.
@@ -51,6 +53,7 @@ You can do this from Nigeria. Sign in with GitHub, link your GitHub account and 
 - [5. Submit it](#5-submit-it)
 - [6. Check it, fix it, resubmit](#6-check-it-fix-it-resubmit)
 - [7. Claim your reward](#7-claim-your-reward)
+- [Your first hour on make.fun](#your-first-hour-on-makefun)
 - [Earn with your own referral link](#earn-with-your-own-referral-link)
 - [Questions](#questions)
 
@@ -164,6 +167,25 @@ node cli/makefun.mjs claim --claim <claim-id> \
 
 Say `--us-person yes` only if you are a US person. Keep your wallet details safe, and double-check the address before you claim. A tax form is asked for only where the law requires one.
 
+## Your first hour on make.fun
+
+Do not try to do everything at once. Here is a simple first hour that sets you up properly:
+
+1. **Sign up (5 minutes)** — Use [https://make.fun/r/e1cybfh9](https://make.fun/r/e1cybfh9), code `e1cybfh9`, and sign in with GitHub if you can.
+2. **Complete your profile (5 minutes)** — Add your handle and a short bio, and link your GitHub account and Solana wallet. A finished profile is the first sign of a real, active account.
+3. **Open one bounty (10 minutes)** — Pick just one bounty that looks interesting. Do not open ten tabs. One is enough to learn from.
+4. **Read its rules properly (15 minutes)** — Read the bounty page and, if you download the kit, its RULES.txt from top to bottom. Note the deadline, the required files, and how many places get paid.
+5. **Take part, even in a small way (15 minutes)** — Leave a genuine comment or question on the bounty if comments are open, or start a tiny first entry with your agent — even a rough draft in your repo. The point is to actually use your account, not leave it sitting idle.
+6. **Note your next step (10 minutes)** — Write down what you will build, what you still need, and when the deadline is. Then you can come back and build with a clear head.
+
+A few extra tips from my own entry:
+
+- **Small and complete beats big and unfinished.** A simple entry that passes every check can place. A grand entry that misses a required file cannot.
+- **Run the local check early**, not just at the end. Run it once with a rough draft so you learn what it looks for.
+- **Keep your transcripts.** Start your build in a fresh agent session and do not throw that session away — you need it to submit.
+- **Do not wait for the last hour.** Uploads, GitHub, and wallets all choose the deadline day to act up. Submit early if you can.
+- **For this bounty, sharing matters.** Your score is verified signups from your link, so a clear guide is only half the work — share it where real people who might genuinely want to try make.fun will see it, and tell them honestly what it is.
+
 ## Earn with your own referral link
 
 Every make.fun account gets its own referral link. Mine is [https://make.fun/r/e1cybfh9](https://make.fun/r/e1cybfh9), code `e1cybfh9`.
@@ -193,6 +215,9 @@ Your entry includes the transcripts of the agent sessions that built it. They ar
 
 **When do I get paid if I win?**
 After the bounty deadline, entries are checked and scored, final results are confirmed, and then top entries can claim their USDC reward to their own Solana wallet.
+
+**How is this bounty scored?**
+"Bring the humans again" is scored by verified human signups, not by a code grader. Your referral link brings people in; only signups that the house's referral check verifies count. A signup counts when a new account is created during the competition with your code bound to it, and each signup is decided after its own 24-hour review hold. The final check runs for 30 hours after the deadline, and only signups verified by the end of it count.
 
 ## Links
 
